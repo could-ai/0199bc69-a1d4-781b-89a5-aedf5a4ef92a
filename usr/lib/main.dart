@@ -10,7 +10,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  @Override
+  @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
       create: (context) => CollisionProvider(),
